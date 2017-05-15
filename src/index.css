@@ -1,25 +1,61 @@
 body {
+  background-color: #3A4264;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 h3 {
   display: inline;
-  padding-right: 325px;
+  padding-right: 825px;
 }
+::-webkit-input-placeholder {
+  text-align: center;
+}
+button {
+    /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+  background:  #1F253D;
+  color: grey;
+  border-style: thin;
+  border-color: grey;
+  -o-transition:1.5s;
+  -ms-transition:1.5s;
+  -moz-transition:1.5s;
+  -webkit-transition:1.5s;
+  transition:1.5s;
+
+}
+button:hover {
+  background-color: red;
+}
+
 .mainDiv {
-  margin: 0 auto;
+  margin:15px;
   background:  #1F253D;
   text-align: center;
-  width: 500px;
+  color: white;
 }
 .gameContainer {
 margin: 0 auto;
 width: 300px;
+color: black;
+padding-bottom: 200px;
+padding-top:200px;
+}
+input {
+  height:50px;
+  margin:30px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
-.input_box {
-  background: #394264
+.input_box, input {
+  background: #394264;
+  /*border: none;*/
+  display: block;
+  margin: 0 auto;
 }
 
 .prev_guesses {
