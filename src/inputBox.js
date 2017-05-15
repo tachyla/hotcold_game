@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function inputBox() {
     return(
-        <div>
+        <div className='input_box'>
             <input type='text' placeholder='Input Guess'/>
             <button type='button'>Guess</button>
             <h2>Guess #1</h2>

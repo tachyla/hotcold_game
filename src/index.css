@@ -3,3 +3,31 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+h3 {
+  display: inline;
+  padding-right: 325px;
+}
+.mainDiv {
+  margin: 0 auto;
+  background:  #1F253D;
+  text-align: center;
+  width: 500px;
+}
+.gameContainer {
+margin: 0 auto;
+width: 300px;
+}
+
+.input_box {
+  background: #394264
+}
+
+.prev_guesses {
+  background: #11A8AB;
+}
+
+
+.results_box {
+  background: #CC324B;
+
+}

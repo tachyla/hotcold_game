@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function gameContainer(){
     return(
-        <div className ='placeHolderClass'>
+        <div className ='gameContainer'>
             <ResultBox />
             <InputBox />
             <PreviousGuessesBox />
