@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 // import ResultBox from './resultBox';
 // import PreviousGuessesBox from './previousGuessesBox';
 // import GameContainer from './gameContainer';
-import MainContainer from './mainContainer';
+import GameContainer from './components/gameContainer';
 import './index.css';
 
 ReactDOM.render(
-  <MainContainer />,
+  <GameContainer />,
   // <InputBox />,
   document.getElementById('root')
 );

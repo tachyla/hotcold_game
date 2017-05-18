@@ -15,6 +15,11 @@ h3 {
 ::-webkit-input-placeholder {
   text-align: center;
 }
+
+ul {
+  list-style-type: none;
+}
+
 button {
     /* First we need to help some browsers along for this to work.
      Just because a vendor prefix is there, doesn't mean it will
@@ -36,7 +41,7 @@ button:hover {
   background-color: red;
 }
 
-.mainDiv {
+.mainContainer {
   margin:15px;
   background:  #1F253D;
   text-align: center;
@@ -83,3 +88,43 @@ input {
   height: 30px;
   padding: 20px;
 }
+
+nav {
+  display:inline-block;
+
+}
+.prev_guesses span {
+	display: inline;
+	background-color: #1a4e95;
+	padding: 0.3em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0.3em;
+	color: #fff;
+}
+
+/*nav {
+	position: relative;
+	height: 10%;
+	padding: 1em;
+}
+
+nav ul h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+nav ul h3:first-child {
+	float: left;
+}
+
+nav ul h3:last-child {
+	float: right;
+}
+
+nav h3 {
+
+	color: #fff;
+}*/
